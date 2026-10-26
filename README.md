@@ -85,6 +85,16 @@ The workflow is derived from the actual Clean Slate JSON uploaded by the author.
 
 Run `python scripts/validate_workflow.py` to check graph references. Structural checks passed during packaging. No GPU inference, clean-machine installation, visual output quality, or complete dependency-version compatibility was tested here. Exported core node version metadata is not a certified minimum ComfyUI version.
 
+## Frequently asked questions
+
+**Do I need a video to start?** No. Load a still reference image and enter motion instructions.
+
+**Why is this slower than the Quality workflow?** Higher-resolution or longer video settings generally demand more GPU memory and rendering time.
+
+**How can I test it before a long render?** Use fewer frames and a lower resolution, confirm the framing and motion, then increase settings gradually.
+
+**Why did the identity or framing change?** Inspect the prepared reference and reduce motion or duration. Image-to-video generation cannot guarantee identity preservation.
+
 ## 🔗 Related Free RebelTortuga Projects
 
 Explore other free tools and workflows:
