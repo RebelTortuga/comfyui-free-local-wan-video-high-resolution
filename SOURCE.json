@@ -1,0 +1,12 @@
+{
+  "uploaded_filename": "Image To Video - High rez - Clean Slate(3).json",
+  "uploaded_sha256": "0e9c9bec62174eb2cf0e3e6470ea9efd5ee8869cdb604ed1892bfcd9efda615a",
+  "workflow_modified": true,
+  "adjustments": [
+    "Blank source image and active prompts",
+    "Preserve Prompt History auto-save and paths",
+    "Correct negative Clean Slate connection where required",
+    "Remove transient preview fields and canvas viewport state"
+  ],
+  "runtime_tested": false
+}
